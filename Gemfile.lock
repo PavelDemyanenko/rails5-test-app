@@ -126,6 +126,7 @@ GEM
     coffee-script-source (1.9.1.1)
     concurrent-ruby (0.9.1)
     debug_inspector (0.0.2)
+    ejs (1.1.1)
     erubis (2.7.0)
     evrobone (0.1.0)
     execjs (2.6.0)
@@ -153,6 +154,11 @@ GEM
       mini_portile (~> 0.6.0)
     rack-test (0.6.3)
       rack (>= 1.0)
+    rails-backbone (1.2.0)
+      coffee-rails
+      ejs
+      jquery-rails
+      railties
     rails-deprecated_sanitizer (1.0.3)
       activesupport (>= 4.2.0.alpha)
     rails-dom-testing (1.0.7)
@@ -186,6 +192,7 @@ DEPENDENCIES
   jquery-rails
   rack!
   rails!
+  rails-backbone
   sass-rails!
   sprockets!
   sprockets-rails!
